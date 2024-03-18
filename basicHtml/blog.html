@@ -5,27 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blog</title>
     <style>
-      .product {
-        background-color: gold;
+      .images img {
         width: 200px;
       }
 
       .highlight {
-        background-color: burlywood;
+        background-color: blue;
       }
     </style>
   </head>
   <body>
-    <div class="product">
+    <article class="article">
+      <h1>Heading</h1>
       <p>
-        <span class="highlight">Lorem</span> ipsum dolor sit amet consectetur
-        adipisicing elit.
+        Published at
+        <time datetime="2024-03-18 14:00">18th March, 2024 2:00pm</time>
       </p>
-      <a href="/basicHtml/index.html">Homepage</a>
-    </div>
-    <div class="product">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-      <a href="/basicHtml/index.html">Homepage</a>
-    </div>
+      <p>
+        <mark class="highlight">Lorem</mark> ipsum, dolor sit amet consectetur
+        adipisicing elit. Quaerat soluta voluptatem sit possimus suscipit et
+        labore autem excepturi! Ratione id nihil amet animi molestias, fugit
+        iste nobis unde reprehenderit eius fuga, consequuntur consectetur
+        voluptatibus, error eaque mollitia velit. Sapiente eos amet nulla! Iusto
+        quia illo nulla aspernatur sit in exercitationem?
+      </p>
+      <figure class="images">
+        <img src="/images/ship.jpg" alt="Ship sails in the sea." />
+        <figcaption>Ship sails in the sea at Sun set.</figcaption>
+      </figure>
+    </article>
+    <a href="/basicHtml/index.html">Homepage</a>
   </body>
 </html>
