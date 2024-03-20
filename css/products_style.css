@@ -1,0 +1,8 @@
+#products > p {
+  font-weight: bold;
+}
+
+#products ~ p {
+  font-weight: bold;
+  color: brown;
+}
