@@ -5,3 +5,21 @@ body {
 p {
   color: blueviolet;
 }
+
+#products {
+  color: blue;
+}
+
+.product {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+a[target] {
+  color:chocolate;
+}
+
+a[href*="youtube"] {
+  color: blue;
+}
+
