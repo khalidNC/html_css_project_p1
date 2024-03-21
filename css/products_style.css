@@ -1,3 +1,6 @@
+body {
+  margin: 10px;
+}
 #products > p {
   font-weight: bold;
 }
@@ -46,4 +49,20 @@ p::first-line {
 p::after {
   content: "....";
   display: block;
+}
+
+h2 {
+  color: blue;
+}
+
+.highlight {
+  color: blueviolet;
+}
+
+#product {
+  color: pink;
+}
+
+.highlight#product {
+  color: black;
 }
