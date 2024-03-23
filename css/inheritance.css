@@ -32,3 +32,43 @@ strong {
   background-image: radial-gradient(dodgerblue, yellow);
   margin: 10px;
 }
+.box:nth-child(4) {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  background: rgb(2,0,36);
+  background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(62,88,122,0.5900735294117647) 35%, rgba(0,212,255,1) 100%);
+}
+
+.box:nth-child(5) {
+  width: 200px;
+  height: 200px;
+  background: dodgerblue;
+  margin: 10px;
+  border: 5px solid black;
+}
+
+.box:nth-child(6) {
+  width: 200px;
+  height: 200px;
+  background: yellow;
+  margin: 10px;
+  border: 5px dotted black;
+}
+
+.box:nth-child(7) {
+  width: 200px;
+  height: 200px;
+  background: dodgerblue;
+  margin: 10px;
+  border: 5px dashed black;
+}
+
+.box:nth-child(8) {
+  width: 200px;
+  height: 200px;
+  background-image: radial-gradient(dodgerblue, yellow);
+  margin: 10px;
+  border: 5px solid royalblue;
+  border-width: 10px 20px;
+}
